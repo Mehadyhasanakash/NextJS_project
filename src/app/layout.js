@@ -1,3 +1,4 @@
+import Footer from './componets/Footer';
 import Header from './componets/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={mulish.className}>
       <Header />
       {children}
+      <Footer/>
     </html>
   )
 }
