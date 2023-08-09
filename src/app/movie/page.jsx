@@ -4,7 +4,7 @@ import styles from'@/app/styles/common.module.css'
 import MovieCard from '../componets/MovieCard';
 
 const page = async () => {
-
+  // await new Promise(resolve => setTimeout(resolve, 3000));
 
   const url = 'https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en';
 const options = {
