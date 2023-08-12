@@ -1,7 +1,7 @@
 'use client'
 
 import styles from "@/app/styles/navbar.module.css"
-// import {CgCloseR, CgMenu} from "react-icons/cg";
+import {CgCloseR, CgMenu} from "react-icons/cg";
 import Link from "next/link";
 import {useState} from "react";
 
@@ -36,7 +36,7 @@ const Nav = () => {
                     </ul>
 
                     {/* //nav icon */}
-                    {/* <div className={styles['mobile-navbar-btn']}>
+                    <div className={styles['mobile-navbar-btn']}>
                         <CgMenu
                             name="menu-outline"
                             className={styles['mobile-nav-icon']}
@@ -47,7 +47,7 @@ const Nav = () => {
                             className={`${styles['mobile-nav-icon']} ${styles['close-outline']}`}
                             onClick={() => setOpenMenu(false)}
                         />
-                    </div> */}
+                    </div>
                 </div>
             </nav>
 
